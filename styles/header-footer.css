@@ -231,3 +231,43 @@ label{
 label:hover{
     color: #9A590D;
 }
+
+/* ---------------------------------- MOBILE HEADER ------------------------------------------ */
+
+@media screen and (max-width: 767px) {
+    
+    .header{
+       width: 100%;
+       height: 60px; 
+    }
+
+    .header a img#logotipo {
+        display: none;
+    }
+
+    .header a label{
+        display: none;
+    }
+
+    .header .header-flex{
+        width: 308px;
+        height: 18px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header .header-flex .links_header{
+        width: 212px;
+        height: 15px;
+    }
+
+    .header .header-flex .midia_header{
+        width: 52px;
+        height: 18px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 523px;
+    }
+}
