@@ -58,6 +58,10 @@
     height: 400px;
 }
 
+.home_section img#LogoMobile{
+    display: none;
+}
+
 .home_section .HomeTittle #tittleHome {
     font-family: Titillim-Web;
     font-size: 28px;
@@ -312,43 +316,79 @@
 }
 }
 
-@media screen and (max-width: 767px) {
-/*     
-    .header{
-       width: 100%;
-       height: 60px; 
-    }
+/* --------------------------------------- MOBILE HOME ------------------------------------- */
 
-    .header a img#logotipo {
-        display: none;
-    }
-
-    .header a label{
-        display: none;
-    }
-
-    .header .header-flex{
-        width: 308px;
-        height: 18px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .header .header-flex .links_header{
-        width: 212px;
-        height: 15px;
-    }
-
-    .header .header-flex .midia_header{
-        width: 52px;
-        height: 18px;
-    }
-     */
-    .footer{
-    }
-    
+@media screen and (max-width: 767px) {   
     .home_section{
-        display: none;
+        width: 100%;
+        height: 356px;
+    
+        background-image: url(../images/home-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .home_section .layouthome{
+        width: 339px;
+        height: 269px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .home_section img#LogoMobile{
+        width: 203px;
+        height: 43px;
+
+        margin-top: 30px;
+    }
+
+    .home_section .Introduction_Home{
+        width: 339px;
+        height: 160px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .home_section .Introduction_Home .HomeTittle{
+        width: 339px;
+        height: 76px;
+    }
+
+    .home_section .Introduction_Home .HomeTittle #tittleHome{
+        font-family: Titillim-Web;
+        font-size: 20px;
+    }
+
+    .home_section .Introduction_Home .HomeTittle #subtittleHome{
+        font-family: Quick-Sand;
+        font-size: 10px;
+    
+        color: #9a5900;
+    }
+
+    .home_section .layouthome .Introduction_Home #ButtonHome {
+    
+        font-family: TitilliumWeb-Bold;
+        font-size: 12px;
+        text-decoration: none;
+    
+        color: black;
+    
+        width: 130px;
+        height: 23px;
+    
+        border: none;
+        border-radius: 8px;
+        background-color: #F39945;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #HRdivision{
