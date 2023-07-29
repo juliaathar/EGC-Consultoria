@@ -175,7 +175,7 @@ footer .divisionFooter {
     border-bottom: 2px solid #9A590D;
 }
 
-#instamobile{
+#instamobile {
     display: none;
 }
 
@@ -240,37 +240,37 @@ label:hover {
 
 @media screen and (max-width: 767px) {
 
-    .header {
+    header {
         width: 100%;
         height: 60px;
     }
 
-    .header a img#logotipo {
+    header a img#logotipo {
         display: none;
     }
 
-    .header a label {
+    header a label {
         display: none;
     }
 
-    .header .header-flex {
+    header .header-flex {
         width: 308px;
         height: 18px;
         display: flex;
         justify-content: space-between;
     }
 
-    .header .header-flex .links_header {
+    header .header-flex .links_header {
         width: 212px;
         height: 15px;
     }
 
-    .header .header-flex .midia_header {
+    header .header-flex .midia_header {
         width: 52px;
         height: 18px;
     }
 
-    .footer {
+    footer {
         width: 100%;
         height: 523px;
 
@@ -278,7 +278,7 @@ label:hover {
         flex-direction: column;
     }
 
-    .footer .footer-flex {
+    footer .footer-flex {
         width: 100%;
         height: 331px;
 
@@ -309,20 +309,20 @@ label:hover {
         font-size: 20px;
     }
 
-    .menu-fitem::before {
+    footer .menu-fitem::before {
         margin-right: 6px;
     }
 
-    .menu-fitem a {
+    footer .menu-fitem a {
         font-size: 12px;
     }
 
-    .list-flinks,
-    .menu-fsocial{
+    footer .list-flinks,
+    footer .menu-fsocial {
         margin-top: 10px;
     }
 
-    #instamobile{
+    footer #instamobile {
         display: block;
     }
 }
