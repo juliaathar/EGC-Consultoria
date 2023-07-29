@@ -451,11 +451,18 @@
         filter: drop-shadow(10px 10px 10px #b7b7b7);
     }
 
+    .service_section .layoutService .BoxSectionService .ListServices{
+        width: 290px;
+        height: 84px;
+        display: flex;
+        justify-content: space-between;
+    }
+
     .service_section .layoutService .BoxSectionService .ListServices .servicesTexts {
         width: 140px;
         height: 84px;
         display: flex;
-
+        flex-direction: column;
     }
 
     .service_section .layoutService .BoxSectionService .ListServices .servicesTexts #tittleListServices {
@@ -480,7 +487,11 @@
         color: black;
     }
 
-    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts #buttonService {
+    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts #buttonService{
+        display: none;
+    }
+
+    .service_section .layoutService .BoxSectionService .ListServices .buttonMobile a#buttonMobile {
         font-family: TitilliumWeb-Bold;
         font-size: 10px;
         text-decoration: none;
