@@ -43,292 +43,292 @@
 
 @media (min-width: 992px) {
 
-.MobileManutençao{
-    display: none;
-}
+    .MobileManutençao {
+        display: none;
+    }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *Home Section* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *Home Section* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-.home_section {
-    background-image: url(../images/background\ homePage.png);
+    .home_section {
+        background-image: url(../images/background\ homePage.png);
 
-    background-size: cover;
+        background-size: cover;
 
-    width: 100%;
-    height: 400px;
-}
+        width: 100%;
+        height: 400px;
+    }
 
-.home_section img#LogoMobile{
-    display: none;
-}
+    .home_section img#LogoMobile {
+        display: none;
+    }
 
-.home_section .HomeTittle #tittleHome {
-    font-family: Titillim-Web;
-    font-size: 28px;
-}
+    .home_section .HomeTittle #tittleHome {
+        font-family: Titillim-Web;
+        font-size: 28px;
+    }
 
-.home_section .HomeTittle #subtittleHome {
-    font-family: Quick-Sand;
-    font-size: 10px;
+    .home_section .HomeTittle #subtittleHome {
+        font-family: Quick-Sand;
+        font-size: 10px;
 
-    color: #9a5900;
-}
+        color: #9a5900;
+    }
 
-.home_section .layouthome {
-    width: 100%;
-    height: 400px;
+    .home_section .layouthome {
+        width: 100%;
+        height: 400px;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-.home_section .layouthome .Introduction_Home {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+    .home_section .layouthome .Introduction_Home {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
-.home_section .layouthome .Introduction_Home .HomeTittle {
-    padding-top: 60px;
-}
+    .home_section .layouthome .Introduction_Home .HomeTittle {
+        padding-top: 60px;
+    }
 
-.home_section .layouthome .Introduction_Home #ButtonHome {
-    margin-bottom: 30px;
+    .home_section .layouthome .Introduction_Home #ButtonHome {
+        margin-bottom: 30px;
 
-    font-family: TitilliumWeb-Bold;
-    font-size: 12px;
-    text-decoration: none;
+        font-family: TitilliumWeb-Bold;
+        font-size: 12px;
+        text-decoration: none;
 
-    color: black;
+        color: black;
 
-    width: 130px;
-    height: 23px;
+        width: 130px;
+        height: 23px;
 
-    border: none;
-    border-radius: 8px;
-    background-color: #F39945;
+        border: none;
+        border-radius: 8px;
+        background-color: #F39945;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-#HRdivision {
-    border: 1px solid #757575;
+    #HRdivision {
+        border: 1px solid #757575;
 
-    position: relative;
-    z-index: 1001;
-}
+        position: relative;
+        z-index: 1001;
+    }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *Services Section* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *Services Section* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-.service_section {
-    width: 100%;
-    height: 395px;
+    .service_section {
+        width: 100%;
+        height: 395px;
 
-    background-color: #E3E3E3;
-    align-items: center;
-}
+        background-color: #E3E3E3;
+        align-items: center;
+    }
 
-.service_section .layoutService {
-    width: 100%;
-    height: 395px;
+    .service_section .layoutService {
+        width: 100%;
+        height: 395px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.service_section .layoutService .TextService{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .service_section .layoutService .TextService {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-    margin-top: 14px;
-}
+        margin-top: 14px;
+    }
 
-.service_section .layoutService .TextService #tittleService{
-    font-family: TitilliumWeb-Bold;
-    font-size: 25px;
-}
+    .service_section .layoutService .TextService #tittleService {
+        font-family: TitilliumWeb-Bold;
+        font-size: 25px;
+    }
 
-.service_section .layoutService .TextService #subtittleService{
-    font-family: Quick-Sand;
-    font-size: 12px;
+    .service_section .layoutService .TextService #subtittleService {
+        font-family: Quick-Sand;
+        font-size: 12px;
 
-    color: #9A590D;
-}
+        color: #9A590D;
+    }
 
-.service_section .layoutService .BoxSectionService {
-    height: 280px;
-    width: 950px;
+    .service_section .layoutService .BoxSectionService {
+        height: 280px;
+        width: 950px;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
 
-    border-radius: 8px;
+        border-radius: 8px;
 
-    margin-top: 14px;
+        margin-top: 14px;
 
-    background-color: white;
+        background-color: white;
 
-    filter: drop-shadow(10px 10px 10px #b7b7b7);
-}
+        filter: drop-shadow(10px 10px 10px #b7b7b7);
+    }
 
-.service_section .layoutService .BoxSectionService .ListServices .servicesTexts{
-    height: 240px;
-    width: 280px;
-}
+    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts {
+        height: 240px;
+        width: 280px;
+    }
 
-.service_section .layoutService .BoxSectionService .ListServices .servicesTexts #tittleListServices{
-    font-family: TitilliumWeb-Bold;
-    font-size: 18px;
+    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts #tittleListServices {
+        font-family: TitilliumWeb-Bold;
+        font-size: 18px;
 
-    color: #9A590D;
+        color: #9A590D;
 
-    padding-bottom: 12px;
-}
+        padding-bottom: 12px;
+    }
 
-.service_section .layoutService .BoxSectionService .ListServices .servicesTexts ul a{
-    text-decoration: none;
-}
+    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts ul a {
+        text-decoration: none;
+    }
 
-.service_section .layoutService .BoxSectionService .ListServices .servicesTexts ul a li{
-    font-family: Titillim-Web;
-    font-size: 14px;
+    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts ul a li {
+        font-family: Titillim-Web;
+        font-size: 14px;
 
-    text-decoration: none;
+        text-decoration: none;
 
-    color: black; 
-}
+        color: black;
+    }
 
-.service_section .layoutService .BoxSectionService .ListServices .servicesTexts ul a li:hover{
-    color: #9A590D; 
-}
+    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts ul a li:hover {
+        color: #9A590D;
+    }
 
-.service_section .layoutService .BoxSectionService .ListServices .servicesTexts #buttonService{
-    font-family: TitilliumWeb-Bold;
-    font-size: 10px;
-    text-decoration: none;
+    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts #buttonService {
+        font-family: TitilliumWeb-Bold;
+        font-size: 10px;
+        text-decoration: none;
 
-    color: black;
+        color: black;
 
-    width: 95px;
-    height: 20px;
+        width: 95px;
+        height: 20px;
 
-    border: none;
-    border-radius: 8px;
-    background-color: #F39945;
-    
-    margin-top: 65px;
-    margin-left: -14px;
+        border: none;
+        border-radius: 8px;
+        background-color: #F39945;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+        margin-top: 65px;
+        margin-left: -14px;
 
-.service_section .layoutService .BoxSectionService #ProductsIllustration{
-    border-radius: 8px;
-}
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *About Section* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    .service_section .layoutService .BoxSectionService #ProductsIllustration {
+        border-radius: 8px;
+    }
 
-.aboutSection{
-    background-image: url(../images/Background\ AboutPage.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *About Section* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-    width: 100%;
-    height: 370px;
-}
+    .aboutSection {
+        background-image: url(../images/Background\ AboutPage.png);
+        background-size: cover;
+        background-repeat: no-repeat;
 
-.aboutSection .layoutAbout{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+        width: 100%;
+        height: 370px;
+    }
 
-    width: 100%;
-    height: 370px;
-}
+    .aboutSection .layoutAbout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-.aboutSection .layoutAbout #TextAbout{
-    width: 666px;
-    height: 230px;
+        width: 100%;
+        height: 370px;
+    }
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    .aboutSection .layoutAbout #TextAbout {
+        width: 666px;
+        height: 230px;
 
-    margin-bottom: 41px;
-}
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
-.aboutSection .layoutAbout #TextAbout #pAboutCompany{
-    width: 530px;
-    height: 120px;
+        margin-bottom: 41px;
+    }
 
-    text-align: justify;
+    .aboutSection .layoutAbout #TextAbout #pAboutCompany {
+        width: 530px;
+        height: 120px;
 
-    font-family: Quick-Sand;
-    font-size: 14px;
-    font-weight: bold;
+        text-align: justify;
 
-    filter: drop-shadow(10px 10px 10px #727272);
-}
+        font-family: Quick-Sand;
+        font-size: 14px;
+        font-weight: bold;
 
-.aboutSection .layoutAbout #TextAbout #pIntroductionCompany{
-    font-family: Quick-Sand;
-    font-size: 14px;
-    font-weight: bold;
+        filter: drop-shadow(10px 10px 10px #727272);
+    }
 
-    filter: drop-shadow(10px 10px 10px #727272);
-}
+    .aboutSection .layoutAbout #TextAbout #pIntroductionCompany {
+        font-family: Quick-Sand;
+        font-size: 14px;
+        font-weight: bold;
 
-.aboutSection .layoutAbout #TextAbout #tittleAboutCompany{
-    font-family: Inter;
-    font-weight: bold;
-    font-size: 28px;
+        filter: drop-shadow(10px 10px 10px #727272);
+    }
 
-    color: #9A590D;
-}
+    .aboutSection .layoutAbout #TextAbout #tittleAboutCompany {
+        font-family: Inter;
+        font-weight: bold;
+        font-size: 28px;
 
-.aboutSection .layoutAbout #ButtonAbout{
-    font-family: TitilliumWeb-Bold;
-    font-size: 13px;
-    text-decoration: none;
+        color: #9A590D;
+    }
 
-    color: black;
+    .aboutSection .layoutAbout #ButtonAbout {
+        font-family: TitilliumWeb-Bold;
+        font-size: 13px;
+        text-decoration: none;
 
-    width: 125px;
-    height: 25px;
+        color: black;
 
-    border: none;
-    border-radius: 8px;
-    background-color: #F39945;
+        width: 125px;
+        height: 25px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+        border: none;
+        border-radius: 8px;
+        background-color: #F39945;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 /* --------------------------------------- MOBILE HOME ------------------------------------- */
 
-@media screen and (max-width: 767px) {   
-    .home_section{
+@media screen and (max-width: 767px) {
+    .home_section {
         width: 100%;
         height: 356px;
-    
+
         background-image: url(../images/home-mobile.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
 
-    .home_section .layouthome{
+    .home_section .layouthome {
         width: 339px;
         height: 269px;
         display: flex;
@@ -337,14 +337,14 @@
         align-items: center;
     }
 
-    .home_section img#LogoMobile{
+    .home_section img#LogoMobile {
         width: 203px;
         height: 43px;
 
         margin-top: 30px;
     }
 
-    .home_section .Introduction_Home{
+    .home_section .Introduction_Home {
         width: 339px;
         height: 160px;
 
@@ -354,60 +354,182 @@
         align-items: center;
     }
 
-    .home_section .Introduction_Home .HomeTittle{
+    .home_section .Introduction_Home .HomeTittle {
         width: 339px;
         height: 76px;
     }
 
-    .home_section .Introduction_Home .HomeTittle #tittleHome{
+    .home_section .Introduction_Home .HomeTittle #tittleHome {
         font-family: Titillim-Web;
         font-size: 20px;
     }
 
-    .home_section .Introduction_Home .HomeTittle #subtittleHome{
+    .home_section .Introduction_Home .HomeTittle #subtittleHome {
         font-family: Quick-Sand;
         font-size: 10px;
-    
+
         color: #9a5900;
     }
 
     .home_section .layouthome .Introduction_Home #ButtonHome {
-    
+
         font-family: TitilliumWeb-Bold;
         font-size: 12px;
         text-decoration: none;
-    
+
         color: black;
-    
+
         width: 130px;
         height: 23px;
-    
+
         border: none;
         border-radius: 8px;
         background-color: #F39945;
-    
+
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    #HRdivision{
+    #HRdivision {
         display: none;
     }
 
-    .service_section{
+    /* ------------------------------------- SERVICE SECTION ------------------------------------------------ */
+
+    .service_section {
+        width: 100%;
+        height: 383px;
+
+        background-color: #E2E2E2;
+    }
+
+    .service_section .layoutService {
+        width: 100%;
+        height: 383px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service_section .layoutService .TextService {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 14px;
+    }
+
+    .service_section .layoutService .TextService #tittleService {
+        font-family: TitilliumWeb-Bold;
+        font-size: 20px;
+    }
+
+    .service_section .layoutService .TextService #subtittleService {
+        font-family: Quick-Sand;
+        font-size: 10px;
+
+        color: #9A590D;
+    }
+
+    .service_section .layoutService .BoxSectionService {
+        width: 333px;
+        height: 280px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        border-radius: 8px;
+
+        margin-top: 14px;
+
+        background-color: white;
+
+        filter: drop-shadow(10px 10px 10px #b7b7b7);
+    }
+
+    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts {
+        width: 140px;
+        height: 84px;
+        display: flex;
+
+    }
+
+    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts #tittleListServices {
+        font-family: TitilliumWeb-Bold;
+        font-size: 12px;
+
+        color: #9A590D;
+
+        padding-bottom: 12px;
+    }
+
+    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts ul a {
+        text-decoration: none;
+    }
+
+    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts ul a li {
+        font-family: Titillim-Web;
+        font-size: 8px;
+
+        text-decoration: none;
+
+        color: black;
+    }
+
+    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts #buttonService {
+        font-family: TitilliumWeb-Bold;
+        font-size: 10px;
+        text-decoration: none;
+
+        color: black;
+
+        width: 95px;
+        height: 20px;
+
+        border: none;
+        border-radius: 8px;
+        background-color: #F39945;
+
+        margin-top: 65px;
+        margin-left: -14px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service_section .layoutService .BoxSectionService #ProductsIllustration {
+        width: 296px;
+        height: 161px;
+        border-radius: 8px;
+    }
+
+
+
+    .aboutSection {
         display: none;
     }
 
-    .aboutSection{
-        display: none;
-    }
     .MobileManutençao {
         display: none;
     }
 }
 
-    /* .MobileManutençao{
+
+.aboutSection {
+    display: none;
+}
+
+.MobileManutençao {
+    display: none;
+}
+
+
+/* .MobileManutençao{
         border: 6px solid black;
         border-radius: 12px;
 
