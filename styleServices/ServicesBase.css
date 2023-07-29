@@ -1,0 +1,154 @@
+/* Import das Fonts */
+
+@font-face {
+    font-family: TitilliumWeb-Black;
+    src: url(../assets/Fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: Titillim-Web;
+    src: url(../assets/Fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url(../assets/Fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: Quick-Sand;
+    src: url(../assets/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../assets/Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+
+/* Reset de Propriedade */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 992px) 
+{
+    .ServicePage{
+        background-image: url(../images/BackgroungService.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: 672px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .layoutServiceExclusivo{
+        width: 980px;
+        height: 480px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .simpleTittle{
+        width: 990px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    h3{
+        font-family: TitilliumWeb-Bold;
+        font-size: 32px;
+        text-transform: uppercase;
+    
+        color: #9A590D;
+    }
+
+    h4{
+        font-family: Titillim-Web;
+        font-size: 28px;
+    
+        color: black;
+        padding-left: 5px;
+    }
+
+    p{
+        font-family: Titillim-Web;
+        font-size: 16px;
+
+        text-align: justify;
+    
+        color: black;
+
+        width: 900px;
+    }
+
+    .TextAboutService{
+        height: 420px;
+        
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    h5{
+        font-family: TitilliumWeb-Bold;
+        font-size: 26px;
+    
+        width: 500px;
+    
+        color: black; 
+    }
+
+    .contactService{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #whatsappnumberCompany{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        padding-left: 8px;
+        padding-bottom: 8px;
+    }
+    
+    
+    a{
+        text-decoration: none;
+    }
+    
+    label{
+        font-family: Inter;
+        font-weight: bold;
+        font-size: 12px;
+    
+        color: black;
+    
+        margin-left: 8px;
+    }
+    
+    label:hover{
+        color: #9A590D;
+    }
+    
+}

@@ -1,0 +1,200 @@
+/* Import das Fonts */
+
+@font-face {
+    font-family: TitilliumWeb-Black;
+    src: url(../assets/Fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: Titillim-Web;
+    src: url(../assets/Fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url(../assets/Fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: Quick-Sand;
+    src: url(../assets/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../assets/Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+
+/* Reset de Propriedade */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#HRdivision {
+    border: 1px solid #757575;
+
+    position: relative;
+    z-index: 1001;
+}
+
+/* * * * * * * * * * Section * * * * * * * * * * */
+
+.aboutSection{
+    width: 100%;
+    height: 675px;
+    
+    background-image: url(../images/BackgroungAboutCompanyPage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layoutAbout{
+    width: 100%;
+    height: 450px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutSection .layoutAbout .SectionAboutCompanyText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutSection .layoutAbout #TextAbout #pAboutCompany{
+    width: 530px;
+    height: 120px;
+
+    text-align: justify;
+
+    font-family: Quick-Sand;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.aboutSection .layoutAbout #TextAbout #pIntroductionCompany{
+    font-family: Quick-Sand;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.aboutSection .layoutAbout #TextAbout #tittleAboutCompany{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 28px;
+
+    color: #9A590D;
+}
+
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany1,
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany2{
+    border: 2px solid #757575;
+    width: 300px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany3{
+    border: 2px solid #757575;
+    width: 300px;
+    height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany1 h3,
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany2 h3,
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany3 h3{
+    font-family: Inter;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    color: #854c0a;
+}
+
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany1 p,
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany2 p{
+    width: 280px;
+    height: 50px;
+
+    font-family: Quick-Sand;
+    font-size: 12px;
+    font-weight: bold;
+
+    text-align: justify;
+
+    color: #383838;
+}
+
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany3 p{
+    width: 280px;
+    height: 75px;
+
+    font-family: Quick-Sand;
+    font-size: 12px;
+    font-weight: bold;
+
+    text-align: justify;
+
+    color: #383838;
+}
+
+.aboutSection .layoutAbout .top3AboutCompany {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-CompanySocial{
+    width: 400px;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.aboutSection .layoutAbout .SectionAboutCompanyText #ContactCompanyAbout{
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.aboutSection .layoutAbout .SectionAboutCompanyText #ContactCompanyAbout h3{
+    font-family: Inter;
+
+    font-weight: bold;
+    font-size: 18px;
+
+    color: #383838;
+}

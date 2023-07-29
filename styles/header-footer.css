@@ -1,0 +1,233 @@
+/* Import das Fonts */
+
+@font-face {
+    font-family: TitilliumWeb-Black;
+    src: url(../assets/Fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: Titillim-Web;
+    src: url(../assets/Fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url(../assets/Fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: Quick-Sand;
+    src: url(../assets/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../assets/Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+
+/* Reset de Propriedade */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *Header* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+header {
+    width: 100%;
+    height: 60px;
+
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+
+    z-index: 10;
+}
+
+header .header-flex {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-flex #logotipo {
+    width: 200px;
+    height: 43px;
+}
+
+
+header .header-flex .links_header {
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-flex .midia_header {
+    width: 160px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#whatsappnumberh{
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 4px;
+    height: 30px;
+}
+
+header .header-flex .links_header a {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: normal;
+
+    color: black;
+
+    text-decoration: none;
+}
+
+header .header-flex .links_header a:hover {
+    color: #9A590D;
+}
+
+header .header-flex .midia_header a img {
+    width: 18px;
+    height: 18px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *Footer* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+footer{
+    width: 100%;
+    height: 226px;
+
+    background-image: url(../images/Background\ Footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+}
+
+footer .divisionFooter a #logotipo {
+    width: 221px;
+    height: 49px;
+
+    margin-bottom: 20px;
+}
+
+footer .divisionFooter #textCompanyFooter{
+    width: 260px;
+    height: 39px;
+
+    font-family: Inter;
+    font-size: 14px;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #9A590D;
+}
+
+footer .divisionFooter{
+    height: 226px;
+    width: 400px;
+
+    border-right: 2px solid #757575;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-flex{
+    width: 480px;
+    height: 180px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#tittleFooter{
+    font-family: TitilliumWeb-Bold;
+    font-size: 30px;
+
+    border-bottom: 2px solid #9A590D;
+}
+
+.menu-fitem::before {
+    content: "\2015";
+    margin-right: 10px;
+    color: #9A590D;
+}
+
+.menu-fitem{
+    list-style: none;
+}
+
+.menu-fitem a {
+    font-size: 14px;
+    font-family: Inter;
+    text-decoration: none;
+    line-height: 2rem;
+    color: black;
+}
+
+.menu-fsocial{
+    width: 150px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box_contatos a img{
+    width: 30px;
+    height: 30px;
+}
+
+#whatsappnumberf{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+label{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 12px;
+
+    color: black;
+
+    margin-left: 8px;
+}
+
+label:hover{
+    color: #9A590D;
+}
