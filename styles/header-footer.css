@@ -87,7 +87,7 @@ header .header-flex .midia_header {
     justify-content: space-between;
 }
 
-#whatsappnumberh{
+#whatsappnumberh {
     display: flex;
     align-items: center;
 
@@ -115,7 +115,7 @@ header .header-flex .midia_header a img {
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *Footer* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-footer{
+footer {
     width: 100%;
     height: 226px;
 
@@ -134,7 +134,7 @@ footer .divisionFooter a #logotipo {
     margin-bottom: 20px;
 }
 
-footer .divisionFooter #textCompanyFooter{
+footer .divisionFooter #textCompanyFooter {
     width: 260px;
     height: 39px;
 
@@ -147,7 +147,7 @@ footer .divisionFooter #textCompanyFooter{
     color: #9A590D;
 }
 
-footer .divisionFooter{
+footer .divisionFooter {
     height: 226px;
     width: 400px;
 
@@ -160,7 +160,7 @@ footer .divisionFooter{
     justify-content: center;
 }
 
-.footer-flex{
+.footer-flex {
     width: 480px;
     height: 180px;
 
@@ -168,7 +168,7 @@ footer .divisionFooter{
     justify-content: space-around;
 }
 
-#tittleFooter{
+#tittleFooter {
     font-family: TitilliumWeb-Bold;
     font-size: 30px;
 
@@ -181,7 +181,7 @@ footer .divisionFooter{
     color: #9A590D;
 }
 
-.menu-fitem{
+.menu-fitem {
     list-style: none;
 }
 
@@ -193,7 +193,7 @@ footer .divisionFooter{
     color: black;
 }
 
-.menu-fsocial{
+.menu-fsocial {
     width: 150px;
     height: 100px;
 
@@ -202,23 +202,23 @@ footer .divisionFooter{
     justify-content: space-around;
 }
 
-.box_contatos a img{
+.box_contatos a img {
     width: 30px;
     height: 30px;
 }
 
-#whatsappnumberf{
+#whatsappnumberf {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 
-a{
+a {
     text-decoration: none;
 }
 
-label{
+label {
     font-family: Inter;
     font-weight: bold;
     font-size: 12px;
@@ -228,40 +228,40 @@ label{
     margin-left: 8px;
 }
 
-label:hover{
+label:hover {
     color: #9A590D;
 }
 
 /* ---------------------------------- MOBILE HEADER ------------------------------------------ */
 
 @media screen and (max-width: 767px) {
-    
-    .header{
-       width: 100%;
-       height: 60px; 
+
+    .header {
+        width: 100%;
+        height: 60px;
     }
 
     .header a img#logotipo {
         display: none;
     }
 
-    .header a label{
+    .header a label {
         display: none;
     }
 
-    .header .header-flex{
+    .header .header-flex {
         width: 308px;
         height: 18px;
         display: flex;
         justify-content: space-between;
     }
 
-    .header .header-flex .links_header{
+    .header .header-flex .links_header {
         width: 212px;
         height: 15px;
     }
 
-    .header .header-flex .midia_header{
+    .header .header-flex .midia_header {
         width: 52px;
         height: 18px;
     }
@@ -269,5 +269,50 @@ label:hover{
     .footer {
         width: 100%;
         height: 523px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .footer-flex {
+        width: 100%;
+        height: 331px;
+
+        display: flex;
+        flex-direction: column;
+
+        background-image: url(../images/footer-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    footer .divisionFooter {
+        width: 100%;
+        height: 191px;
+
+        border-right: none;
+        border-bottom: #757575 2px solid;
+    }
+
+    footer .footer-flex .box_linksUteis {
+        width: 120px;
+        height: 133px;
+        margin-left: 20px;
+    }
+
+    footer .footer-flex .box_linksUteis h2#tittleFooter {
+        font-size: 20px;
+    }
+
+    .menu-fitem::before {
+        margin-right: 6px;
+    }
+
+    .menu-fitem a {
+        font-size: 12px;
+    }
+
+    .list-flinks{
+        margin-top: 10px;
     }
 }
