@@ -175,6 +175,10 @@ footer .divisionFooter {
     border-bottom: 2px solid #9A590D;
 }
 
+#instamobile{
+    display: none;
+}
+
 .menu-fitem::before {
     content: "\2015";
     margin-right: 10px;
@@ -294,13 +298,15 @@ label:hover {
         border-bottom: #757575 2px solid;
     }
 
-    footer .footer-flex .box_linksUteis {
+    footer .footer-flex .box_linksUteis,
+    footer .footer-flex .box_contatos {
         width: 120px;
         height: 133px;
         margin-left: 20px;
     }
 
-    footer .footer-flex .box_linksUteis h2#tittleFooter {
+    footer .footer-flex .box_linksUteis h2#tittleFooter,
+    footer .footer-flex .box_contatos h2#tittleFooter {
         font-size: 20px;
     }
 
@@ -312,7 +318,12 @@ label:hover {
         font-size: 12px;
     }
 
-    .list-flinks{
+    .list-flinks,
+    .menu-fsocial{
         margin-top: 10px;
+    }
+
+    #instamobile{
+        display: block;
     }
 }
