@@ -51,7 +51,6 @@
 
     .home_section {
         background-image: url(../images/background\ homePage.png);
-
         background-size: cover;
 
         width: 100%;
@@ -451,7 +450,7 @@
         filter: drop-shadow(10px 10px 10px #b7b7b7);
     }
 
-    .service_section .layoutService .BoxSectionService .ListServices{
+    .service_section .layoutService .BoxSectionService .ListServices {
         width: 290px;
         height: 84px;
         display: flex;
@@ -487,7 +486,7 @@
         color: black;
     }
 
-    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts #buttonService{
+    .service_section .layoutService .BoxSectionService .ListServices .servicesTexts #buttonService {
         display: none;
     }
 
@@ -519,82 +518,86 @@
         border-radius: 8px;
     }
 
-
+    /* -------------------------------- ABOUT SECTION ---------------------------------------- */
 
     .aboutSection {
-        display: none;
+        width: 100%;
+        height: 397px;
+
+        border-top: #757575 2px solid;
+
+        background-image: url(../images/about-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-    .MobileManutençao {
-        display: none;
-    }
-}
-
-
-.aboutSection {
-    display: none;
-}
-
-.MobileManutençao {
-    display: none;
-}
-
-
-/* .MobileManutençao{
-        border: 6px solid black;
-        border-radius: 12px;
-
-        width: 320px;
-        height: 220px;
-
-        background-color: rgb(228, 182, 83);
+    .aboutSection .layoutAbout {
+        width: 100%;
+        height: 397px;
 
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
-
-        margin-top: calc(100% - 110px);
+        justify-content: center;
     }
 
-    .MobileManutençao h6{
+    .aboutSection .layoutAbout #TextAbout {
+        width: 323px;
+        height: 82px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin-bottom: 41px;
+    }
+
+    .aboutSection .layoutAbout #TextAbout #pAboutCompany {
+        width: 530px;
+        height: 120px;
+
+        text-align: justify;
+
+        font-family: Quick-Sand;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .aboutSection .layoutAbout #TextAbout #pIntroductionCompany {
+        font-family: Quick-Sand;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .aboutSection .layoutAbout #TextAbout #tittleAboutCompany {
+        font-family: Inter;
+        font-weight: bold;
+        font-size: 16px;
+
+        color: #9A590D;
+    }
+
+    .aboutSection .layoutAbout #ButtonAbout {
         font-family: TitilliumWeb-Bold;
-        font-size: 28px;
+        font-size: 13px;
+        text-decoration: none;
 
-        color: rgb(228, 182, 83);
+        color: black;
 
-        height: 45px;
-        width: 295px;
+        width: 125px;
+        height: 25px;
 
-        background-color: black;
-        border-radius: 4px;
+        border: none;
+        border-radius: 8px;
+        background-color: #F39945;
 
         display: flex;
         align-items: center;
         justify-content: center;
     }
+}
 
-    .MobileManutençao h3{
-        font-family: Quick-Sand;
-        font-size: 12px;
-        text-transform: uppercase;
-
-        height: 60px;     
-        width: 250px;
-
-        color: black;
-
-        text-align: center;
+    .MobileManutençao {
+        display: none;
     }
-
-    .MobileManutençao img{
-        width: 60px;
-        height: 60px;
-    }
-
-    body{
-        display: flex;
-
-        justify-content: center;
-    }
-} */
+    
