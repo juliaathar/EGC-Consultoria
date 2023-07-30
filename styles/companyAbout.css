@@ -198,3 +198,54 @@
 
     color: #383838;
 }
+
+/* ----------------------------------------------------- MOBILE ----------------------------------------------- */
+
+@media screen and (max-width: 767px) {
+    .aboutSection {
+        width: 100%;
+        height: 740px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutSection .layoutAbout{
+        width: 338px;
+        height: 611px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutSection .layoutAbout #TextAbout #pAboutCompany {
+        width: 322px;
+        margin-top: 10px;
+        text-align: justify;
+
+        font-family: Quick-Sand;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .aboutSection .layoutAbout #TextAbout #pIntroductionCompany {
+        margin-bottom: 10px;
+
+        font-family: Quick-Sand;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .aboutSection .layoutAbout #TextAbout #tittleAboutCompany {
+        font-family: Inter;
+        font-weight: bold;
+        font-size: 16px;
+
+        color: #9A590D;
+    }
+
+    .aboutSection .layoutAbout .SectionAboutCompanyText #ContactCompanyAbout{
+        display: none;
+    }
+
+}

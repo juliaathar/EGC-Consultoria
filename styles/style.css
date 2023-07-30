@@ -329,6 +329,7 @@
         background-image: url(../images/home-mobile.png);
         background-repeat: no-repeat;
         background-size: cover;
+        box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.10) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
     .home_section .layouthome {
@@ -530,7 +531,7 @@
 
         border-top: #757575 2px solid;
 
-        background-image: url(../images/teste.png);
+        background-image: url(../images/about-mobile.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
