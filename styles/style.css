@@ -230,7 +230,7 @@
         justify-content: center;
     }
 
-    .service_section .layoutService .BoxSectionService .ListServices .buttonMobile #buttonMobile{
+    .service_section .layoutService .BoxSectionService .ListServices .buttonMobile #buttonMobile {
         display: none;
     }
 
@@ -530,7 +530,7 @@
 
         border-top: #757575 2px solid;
 
-        background-image: url(../images/about-mobile.png);
+        background-image: url(../images/teste.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -593,9 +593,8 @@
         align-items: center;
         justify-content: center;
     }
-}
 
     .MobileManutençao {
         display: none;
     }
-    
+}
