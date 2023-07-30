@@ -199,6 +199,10 @@
     color: #383838;
 }
 
+.aboutSection #ContactCompanyAbout1{
+    display: none;
+}
+
 /* ----------------------------------------------------- MOBILE ----------------------------------------------- */
 
 @media screen and (max-width: 767px) {
@@ -246,6 +250,10 @@
 
     .aboutSection .layoutAbout .SectionAboutCompanyText #ContactCompanyAbout{
         display: none;
+    }
+
+    .aboutSection #ContactCompanyAbout1{
+        display: block
     }
 
 }
