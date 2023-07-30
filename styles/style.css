@@ -230,6 +230,10 @@
         justify-content: center;
     }
 
+    .service_section .layoutService .BoxSectionService .ListServices .buttonMobile #buttonMobile{
+        display: none;
+    }
+
     .service_section .layoutService .BoxSectionService #ProductsIllustration {
         border-radius: 8px;
     }
@@ -543,19 +547,11 @@
 
     .aboutSection .layoutAbout #TextAbout {
         width: 323px;
-        height: 82px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-        margin-bottom: 41px;
+        height: 223px;
     }
 
     .aboutSection .layoutAbout #TextAbout #pAboutCompany {
-        width: 530px;
-        height: 120px;
-
+        margin-top: 10px;
         text-align: justify;
 
         font-family: Quick-Sand;
@@ -564,6 +560,8 @@
     }
 
     .aboutSection .layoutAbout #TextAbout #pIntroductionCompany {
+        margin-bottom: 10px;
+
         font-family: Quick-Sand;
         font-size: 10px;
         font-weight: bold;
