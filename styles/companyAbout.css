@@ -49,10 +49,10 @@
 
 /* * * * * * * * * * Section * * * * * * * * * * */
 
-.aboutSection{
+.aboutSection {
     width: 100%;
     height: 675px;
-    
+
     background-image: url(../images/BackgroungAboutCompanyPage.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@
     justify-content: center;
 }
 
-.layoutAbout{
+.layoutAbout {
     width: 100%;
     height: 450px;
 
@@ -70,13 +70,13 @@
     justify-content: space-around;
 }
 
-.aboutSection .layoutAbout .SectionAboutCompanyText{
+.aboutSection .layoutAbout .SectionAboutCompanyText {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.aboutSection .layoutAbout #TextAbout #pAboutCompany{
+.aboutSection .layoutAbout #TextAbout #pAboutCompany {
     width: 530px;
     height: 120px;
 
@@ -87,13 +87,13 @@
     font-weight: bold;
 }
 
-.aboutSection .layoutAbout #TextAbout #pIntroductionCompany{
+.aboutSection .layoutAbout #TextAbout #pIntroductionCompany {
     font-family: Quick-Sand;
     font-size: 14px;
     font-weight: bold;
 }
 
-.aboutSection .layoutAbout #TextAbout #tittleAboutCompany{
+.aboutSection .layoutAbout #TextAbout #tittleAboutCompany {
     font-family: Inter;
     font-weight: bold;
     font-size: 28px;
@@ -102,7 +102,7 @@
 }
 
 .aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany1,
-.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany2{
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany2 {
     border: 2px solid #757575;
     width: 300px;
     height: 100px;
@@ -113,7 +113,7 @@
     justify-content: space-evenly;
 }
 
-.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany3{
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany3 {
     border: 2px solid #757575;
     width: 300px;
     height: 120px;
@@ -126,7 +126,7 @@
 
 .aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany1 h3,
 .aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany2 h3,
-.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany3 h3{
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany3 h3 {
     font-family: Inter;
 
     font-weight: bold;
@@ -136,7 +136,7 @@
 }
 
 .aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany1 p,
-.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany2 p{
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany2 p {
     width: 280px;
     height: 50px;
 
@@ -149,7 +149,7 @@
     color: #383838;
 }
 
-.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany3 p{
+.aboutSection .layoutAbout .top3AboutCompany #boxAboutCompany3 p {
     width: 280px;
     height: 75px;
 
@@ -170,7 +170,7 @@
     justify-content: space-between;
 }
 
-.menu-CompanySocial{
+.menu-CompanySocial {
     width: 400px;
     height: 30px;
 
@@ -179,7 +179,7 @@
     justify-content: space-between;
 }
 
-.aboutSection .layoutAbout .SectionAboutCompanyText #ContactCompanyAbout{
+.aboutSection .layoutAbout .SectionAboutCompanyText #ContactCompanyAbout {
     width: 100%;
     height: 70px;
 
@@ -190,7 +190,7 @@
     margin-bottom: 20px;
 }
 
-.aboutSection .layoutAbout .SectionAboutCompanyText #ContactCompanyAbout h3{
+.aboutSection .layoutAbout .SectionAboutCompanyText #ContactCompanyAbout h3 {
     font-family: Inter;
 
     font-weight: bold;
@@ -199,7 +199,7 @@
     color: #383838;
 }
 
-.aboutSection #ContactCompanyAbout1{
+.aboutSection #ContactCompanyAbout1 {
     display: none;
 }
 
@@ -214,7 +214,7 @@
         flex-direction: column;
     }
 
-    .aboutSection .layoutAbout{
+    .aboutSection .layoutAbout {
         width: 338px;
         height: 611px;
 
@@ -248,12 +248,30 @@
         color: #9A590D;
     }
 
-    .aboutSection .layoutAbout .SectionAboutCompanyText #ContactCompanyAbout{
+    .aboutSection .layoutAbout .SectionAboutCompanyText #ContactCompanyAbout {
         display: none;
     }
 
-    .aboutSection #ContactCompanyAbout1{
-        display: block
+    .aboutSection #ContactCompanyAbout1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-top: 20px;
     }
 
+    .menu-CompanySocial {
+        width: 333px;
+    }
+
+    #ContactCompanyAbout1 h3 {
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: bold;
+
+        color: #383838;
+
+        margin-bottom: 20px;
+    }
 }
