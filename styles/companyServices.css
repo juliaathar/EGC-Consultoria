@@ -49,34 +49,34 @@
 
 /* * * * * * * * * * Section * * * * * * * * * * */
 
-.servicesCompany{
-   background-image: url(../images/BackgroungAboutCompanyPage.png); 
-   background-size: cover;
-   background-repeat: no-repeat;
+.servicesCompany {
+    background-image: url(../images/BackgroungAboutCompanyPage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 
-   width: 100%;
-   height: 1000px;
+    width: 100%;
+    height: 1000px;
 
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-h2{
+h2 {
     font-family: TitilliumWeb-Bold;
     font-size: 28px;
 
     color: #9A590D;
 }
 
-p{
+p {
     font-family: Titillim-Web;
     font-size: 14px;
 
     color: black;
 }
 
-.servicesCompany .layoutServices{
+.servicesCompany .layoutServices {
     width: 100%;
     height: 850px;
 
@@ -85,18 +85,18 @@ p{
     justify-content: space-between;
 }
 
-.servicesCompany .layoutServices .ListServicesCompany{
+.servicesCompany .layoutServices .ListServicesCompany {
     display: flex;
     flex-direction: row;
 
     justify-content: space-between;
 
-    width: 100% ;
+    width: 100%;
     height: 750px;
 }
 
 .servicesCompany .layoutServices .ListServicesCompany .articlesService1,
-.servicesCompany .layoutServices .ListServicesCompany .articlesService2{
+.servicesCompany .layoutServices .ListServicesCompany .articlesService2 {
     display: flex;
     flex-direction: column;
 
@@ -108,7 +108,7 @@ p{
 .servicesCompany .layoutServices .ListServicesCompany .articlesService1 a .simpleArticle,
 .servicesCompany .layoutServices .ListServicesCompany .articlesService2 a .simpleArticle,
 .servicesCompany .layoutServices .ListServicesCompany .articlesService1 .simpleArticle,
-.servicesCompany .layoutServices .ListServicesCompany .articlesService2 .simpleArticle{
+.servicesCompany .layoutServices .ListServicesCompany .articlesService2 .simpleArticle {
     background-color: #9A590D;
 
     width: 565px;
@@ -124,7 +124,7 @@ p{
 .servicesCompany .layoutServices .ListServicesCompany .articlesService1 a .simpleArticle h3,
 .servicesCompany .layoutServices .ListServicesCompany .articlesService2 a .simpleArticle h3,
 .servicesCompany .layoutServices .ListServicesCompany .articlesService1 .simpleArticle h3,
-.servicesCompany .layoutServices .ListServicesCompany .articlesService2 .simpleArticle h3{
+.servicesCompany .layoutServices .ListServicesCompany .articlesService2 .simpleArticle h3 {
     padding-left: 5px;
 
     font-family: TitilliumWeb-Bold;
@@ -135,21 +135,22 @@ p{
 }
 
 .servicesCompany .layoutServices .ListServicesCompany .articlesService1 a .simpleArticle img,
-.servicesCompany .layoutServices .ListServicesCompany .articlesService2 a .simpleArticle img{
-    width: 30px;
-    height: 30px;
-
-    margin-right: 6px;
-}
-.servicesCompany .layoutServices .ListServicesCompany .articlesService1  .simpleArticle img,
-.servicesCompany .layoutServices .ListServicesCompany .articlesService2  .simpleArticle img{
+.servicesCompany .layoutServices .ListServicesCompany .articlesService2 a .simpleArticle img {
     width: 30px;
     height: 30px;
 
     margin-right: 6px;
 }
 
-.multiArticles{
+.servicesCompany .layoutServices .ListServicesCompany .articlesService1 .simpleArticle img,
+.servicesCompany .layoutServices .ListServicesCompany .articlesService2 .simpleArticle img {
+    width: 30px;
+    height: 30px;
+
+    margin-right: 6px;
+}
+
+.multiArticles {
     background-color: white;
 
     width: 565px;
@@ -161,28 +162,28 @@ p{
     justify-content: space-between;
 }
 
-h5{
+h5 {
     font-family: Quick-Sand;
     font-size: 12px;
 
     width: 500px;
     text-align: justify;
 
-    color: black; 
+    color: black;
     padding-left: 8px;
 }
 
-h4{
+h4 {
     font-family: TitilliumWeb-Bold;
     font-size: 12px;
 
     text-transform: uppercase;
 
-    color: #9A590D; 
+    color: #9A590D;
     padding-left: 8px;
 }
 
-#whatsappnumberCompany{
+#whatsappnumberCompany {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -192,11 +193,11 @@ h4{
 }
 
 
-a{
+a {
     text-decoration: none;
 }
 
-label{
+label {
     font-family: Inter;
     font-weight: bold;
     font-size: 12px;
@@ -206,6 +207,26 @@ label{
     margin-left: 8px;
 }
 
-label:hover{
+label:hover {
     color: #9A590D;
+}
+
+/* ---------------------------------------------------- MOBILE ---------------------------------------------------------- */
+
+@media screen and (max-width: 767px) {
+    .servicesCompany {
+        width: 100%;
+        height: 1156px;
+
+        background-image: url(../images/services-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.10) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .servicesCompany .layoutServices .ListServicesCompany .articlesService1 .simpleArticle{
+        width: 335px;
+        height: 23px;
+    }
+
 }
