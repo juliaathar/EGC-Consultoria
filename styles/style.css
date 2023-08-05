@@ -483,11 +483,9 @@
     }
 
     .service_section .layoutService .BoxSectionService .ListServices .servicesTexts ul a li {
-        font-family: Titillim-Web;
-        font-size: 8px;
-
+        font-family: 'TitilliumWeb-Bold';
+        font-size: 9px;
         text-decoration: none;
-
         color: black;
     }
 
