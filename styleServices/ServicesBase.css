@@ -40,9 +40,8 @@
     margin: 0 auto;
 }
 
-@media (min-width: 992px) 
-{
-    .ServicePage{
+@media (min-width: 992px) {
+    .ServicePage {
         background-image: url(../images/BackgroungService.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -55,7 +54,7 @@
         justify-content: center;
     }
 
-    .layoutServiceExclusivo{
+    .layoutServiceExclusivo {
         width: 980px;
         height: 480px;
 
@@ -64,91 +63,181 @@
         justify-content: space-between;
     }
 
-    .simpleTittle{
+    .simpleTittle {
         width: 990px;
 
         display: flex;
         align-items: center;
     }
 
-    h3{
+    h3 {
         font-family: TitilliumWeb-Bold;
         font-size: 32px;
         text-transform: uppercase;
-    
+
         color: #9A590D;
     }
 
-    h4{
+    h4 {
         font-family: Titillim-Web;
         font-size: 28px;
-    
+
         color: black;
         padding-left: 5px;
     }
 
-    p{
+    p {
         font-family: Titillim-Web;
         font-size: 16px;
 
         text-align: justify;
-    
+
         color: black;
 
         width: 900px;
     }
 
-    .TextAboutService{
+    .TextAboutService {
         height: 420px;
-        
+
 
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
 
-    h5{
+    h5 {
         font-family: TitilliumWeb-Bold;
         font-size: 26px;
-    
+
         width: 500px;
-    
-        color: black; 
+
+        color: black;
     }
 
-    .contactService{
+    .contactService {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    #whatsappnumberCompany{
+    #whatsappnumberCompany {
         display: flex;
         flex-direction: row;
         align-items: center;
-    
+
         padding-left: 8px;
         padding-bottom: 8px;
     }
-    
-    
-    a{
+
+
+    a {
         text-decoration: none;
     }
-    
-    label{
+
+    label {
         font-family: Inter;
         font-weight: bold;
         font-size: 12px;
-    
+
         color: black;
-    
+
         margin-left: 8px;
     }
-    
-    label:hover{
+
+    label:hover {
         color: #9A590D;
     }
-    
+
+}
+
+/* ------------------------------------------------ MOBILE ---------------------------------------------------------- */
+@media screen and (max-width: 767px) {
+
+    .ServicePage {
+        width: 100%;
+        height: 740px;
+
+        background-image: url(../images/aboutcompany-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .layoutServiceExclusivo {
+        width: 333px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .simpleTittle {
+        width: 990px;
+        margin-bottom: 20px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    h3 {
+        font-family: TitilliumWeb-Bold;
+        font-size: 16px;
+        text-transform: uppercase;
+
+        color: #9A590D;
+    }
+
+    h4 {
+        font-family: Titillim-Web;
+        font-size: 16px;
+
+        color: black;
+        padding-left: 5px;
+
+        width: 243px;
+    }
+
+    p {
+        font-family: Titillim-Web;
+        font-size: 12px;
+
+        margin-bottom: 20px;
+
+        color: black;
+    }
+
+    h5 {
+        font-family: TitilliumWeb-Bold;
+        font-size: 16px;
+        text-align: center;
+
+        color: black;
+    }
+
+    .TextAboutService {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .contactService {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #whatsappnumberCompany img {
+        width: 33px;
+        height: 30px;
+    }
+
+    #whatsappnumberCompany {
+        display: flex;
+        align-items: center;
+    }
 }

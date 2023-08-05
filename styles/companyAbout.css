@@ -212,6 +212,8 @@
 
         display: flex;
         flex-direction: column;
+
+        background-image: url(../images/aboutcompany-mobile.png);
     }
 
     .aboutSection .layoutAbout {
