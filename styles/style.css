@@ -322,7 +322,7 @@
 /* --------------------------------------- MOBILE HOME ------------------------------------- */
 
 @media screen and (max-width: 767px) {
-    .servicesCompany {
+    .home_section {
         width: 100%;
         height: 356px;
 

@@ -221,12 +221,95 @@ label:hover {
         background-image: url(../images/services-mobile.png);
         background-repeat: no-repeat;
         background-size: cover;
-        box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.10) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
-    .servicesCompany .layoutServices .ListServicesCompany .articlesService1 .simpleArticle{
+    .servicesCompany .layoutServices {
+        height: 1020px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .servicesCompany .layoutServices .ListServicesCompany {
+        flex-direction: column;
+        align-items: center;
+        width: 338px;
+        height: 919px;
+    }
+
+    .servicesCompany .TittleServicesCompany {
+        width: 335px;
+        height: 51px;
+    }
+
+    .servicesCompany .TittleServicesCompany h2 {
+        font-family: TitilliumWeb-Bold;
+        font-size: 15px;
+        color: #9A590D;
+    }
+
+    .servicesCompany .TittleServicesCompany p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .servicesCompany .multiArticles {
+        width: 330px;
+        height: 137px;
+    }
+
+    .servicesCompany .layoutServices .ListServicesCompany .articlesService1 .simpleArticle {
         width: 335px;
         height: 23px;
     }
 
+    .servicesCompany .layoutServices .ListServicesCompany .articlesService1 .simpleArticle h3 {
+        font-size: 10px;
+    }
+
+    .multiArticles h5 {
+        font-family: Quick-Sand;
+        font-size: 9px;
+        width: 322px;
+        color: black;
+        padding-left: 8px;
+    }
+
+    .multiArticles h4 {
+        font-size: 10px;
+    }
+
+    #whatsappnumberCompany img {
+        width: 30px;
+        height: 28px;
+    }
+
+    .servicesCompany .layoutServices .ListServicesCompany .articlesService1 a .simpleArticle,
+    .servicesCompany .layoutServices .ListServicesCompany .articlesService2 a .simpleArticle,
+    .servicesCompany .layoutServices .ListServicesCompany .articlesService1 .simpleArticle,
+    .servicesCompany .layoutServices .ListServicesCompany .articlesService2 .simpleArticle {
+        width: 330px;
+        height: 30px;
+    }
+
+    .servicesCompany .layoutServices .ListServicesCompany .articlesService1 a .simpleArticle h3,
+    .servicesCompany .layoutServices .ListServicesCompany .articlesService2 a .simpleArticle h3,
+    .servicesCompany .layoutServices .ListServicesCompany .articlesService1 .simpleArticle h3,
+    .servicesCompany .layoutServices .ListServicesCompany .articlesService2 .simpleArticle h3 {
+        font-size: 10px;
+    }
+
+    .servicesCompany .layoutServices .ListServicesCompany .articlesService2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 486px;
+    }
+    .servicesCompany .layoutServices .ListServicesCompany .articlesService1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 426px;
+    }
 }
