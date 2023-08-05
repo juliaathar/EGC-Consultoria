@@ -47,7 +47,7 @@
         background-repeat: no-repeat;
 
         width: 100%;
-        height: 672px;
+        height: 740px;
 
         display: flex;
         align-items: center;
@@ -156,9 +156,9 @@
 @media screen and (max-width: 767px) {
 
     .ServicePage {
+
         width: 100%;
         height: 740px;
-
         background-image: url(../images/aboutcompany-mobile.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -240,4 +240,9 @@
         display: flex;
         align-items: center;
     }
+
+    /* comando para tirar bordas brancas ao lado e abaixo do html. */
+    html, body{
+        overflow-x: hidden !important; 
+    }    
 }
