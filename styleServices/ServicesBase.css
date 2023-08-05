@@ -242,7 +242,15 @@
     }
 
     /* comando para tirar bordas brancas ao lado e abaixo do html. */
-    html, body{
-        overflow-x: hidden !important; 
-    }    
+    html,
+    body {
+        overflow-x: hidden !important;
+    }
+
+    #HRdivision {
+        border: 1px solid #757575;
+        position: relative;
+        z-index: 1001;
+    }
+    
 }
